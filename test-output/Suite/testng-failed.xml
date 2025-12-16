@@ -3,13 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testclass.AddToCart">
-        <methods>
-          <include name="addToCartForFil"/>
-          <include name="addToCart"/>
-          <include name="openBrowser"/>
-        </methods>
-      </class> <!-- testclass.AddToCart -->
       <class name="testclass.LoginValidationWithExcelData">
         <methods>
           <include name="checkLogin"/>

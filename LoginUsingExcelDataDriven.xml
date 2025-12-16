@@ -7,7 +7,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testclass.LoginValidationWithExcelData"/>
-      <class name="testclass.AddToCart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

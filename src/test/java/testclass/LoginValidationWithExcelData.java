@@ -30,13 +30,14 @@ public class LoginValidationWithExcelData extends BrowserOpening {
 		Assert.assertEquals(actualErrorMsg, expectedErrorMsg);
 	}
 	
-	 @DataProvider(name = "loginData")
+	 @DataProvider
 	    public Object[][] getData() throws Exception 
 	 {
 
 		 DataDrivenFromExcel reader = new DataDrivenFromExcel();
 	     return reader.getExcelData(
-	     System.getProperty("user.dir") + "C:\\Users\\sanke\\OneDrive\\Desktop\\Data Driven Excel\\AmezonLoginDataExcel.xlsx","Sheet1");
+	     //System.getProperty("user.dir") + "C:\\Users\\sanke\\OneDrive\\Desktop\\Data Driven Excel\\AmezonLoginDataExcel.xlsx","Sheet1");
+	     System.getProperty("user.dir") + "\\src\\test\\java\\rhl\\data\\AmezonLoginDataExcel.xlsx","Sheet1");		 
 	 }
 	
 	
